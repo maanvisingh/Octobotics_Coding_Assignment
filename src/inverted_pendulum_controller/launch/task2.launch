@@ -1,0 +1,5 @@
+<launch>
+<node pkg="rqt_plot" type="rqt_plot" output="screen" name="Force_Velocity_Acceleration" args="/inverted_pendulum/control_force /inverted_pendulum/current_state/curr_x_dot /inverted_pendulum/current_state/curr_x_dot_dot /inverted_pendulum/current_state/curr_theta_dot /inverted_pendulum/current_state/curr_theta_dot_dot"/>
+<include file="$(find inverted_pendulum_controller)/launch/task1.launch" />
+<node pkg="inverted_pendulum_controller" type="task2_pub.py" name="task2" /> 
+</launch>

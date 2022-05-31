@@ -1,0 +1,4 @@
+<launch>
+<node pkg="inverted_pendulum_controller" type="task1_client.py" name="task1_client" />
+<include file="$(find inverted_pendulum_sim)/launch/inverted_pendulum_sim.launch" />
+</launch>

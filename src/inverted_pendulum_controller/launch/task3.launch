@@ -1,0 +1,5 @@
+<launch>
+<node pkg="inverted_pendulum_sim" type="inverted_pendulum_sim_node.py" name="inverted_pendulum_sim_node" />
+<node pkg="inverted_pendulum_controller" type="task3.py" name="task3_pid" />
+<node pkg="rqt_plot" type="rqt_plot" output="screen" name="Pendulum_Angular_Velocity" args="3.14 /inverted_pendulum/current_state/curr_theta" />
+</launch>
