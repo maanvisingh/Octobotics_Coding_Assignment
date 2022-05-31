@@ -1,8 +1,42 @@
 # Octobotics Coding Assignment
 
-This Github repository provides a base inverted pendulum simulation to be used as-is for the purposes of this assignment
+This Github repository provides a base inverted pendulum simulation to be used as-is for the purposes of this assignment.
 
 ![](src/inverted_pendulum_sim/media/inverted_pendulum_sim.png)
+
+# [Problem Statements](https://github.com/maanvisingh/Octobotics_Coding_Assignment/blob/main/Robotics%20Engineer%20Coding%20Assignment.pdf)
+- Goal 1: Creating a controller package
+- Goal 2: Send control input to the pendulum
+- Goal 3: Balance the inverted pendulum
+
+# My Solution
+All the scripts I created are a part of the [inverted_pendulum_controller](https://github.com/maanvisingh/Octobotics_Coding_Assignment/tree/main/src/inverted_pendulum_controller) package.
+- You can find the report for the same [here](https://github.com/maanvisingh/Octobotics_Coding_Assignment/blob/main/Octobotics_Report.pdf).
+
+# To Run the tasks:
+
+## Task 1:
+```
+roslaunch inverted_pendulum_controller task1.launch  
+```
+- [Video Output](https://github.com/maanvisingh/Octobotics_Coding_Assignment/blob/main/Videos/task1.webm)
+
+## Task 2:
+```
+roslaunch inverted_pendulum_controller task2.launch  
+```
+- [Video Output](https://github.com/maanvisingh/Octobotics_Coding_Assignment/blob/main/Videos/task2_part1.webm)
+
+- [Video Output with Increased Frequency](https://github.com/maanvisingh/Octobotics_Coding_Assignment/blob/main/Videos/task2_part2_increasedFrequency.webm)
+
+- [Video Output with Incresed Amplitude](https://github.com/maanvisingh/Octobotics_Coding_Assignment/blob/main/Videos/task2_part3_increaseAmplitude.webm)
+
+## Task 3:
+```
+roslaunch inverted_pendulum_controller task3.launch  
+```
+- [Video Output](https://github.com/maanvisingh/Octobotics_Coding_Assignment/blob/main/Videos/task3.webm)
+
 
 ### Dependencies
 
